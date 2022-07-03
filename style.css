@@ -1,0 +1,58 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.yolo {
+    color: tomato;
+}
+
+.quo {
+    color: tomato;
+}
+
+.auo {
+    color: cornflowerblue;
+}
+
+.wuo {
+    color: darkgoldenrod;
+}
+
+section {
+    display: flex;
+}
+
+.Top {
+    background-image: url(Photo/Background.png);
+    background-repeat: no-repeat;
+}
+
+.half {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.half img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: -o-linear-gradient(tomato, white);
+    background-color: forestgreen;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: aliceblue;
+    font-weight: 600;
+}
