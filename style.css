@@ -27,14 +27,16 @@ h2 {
     color: darkgoldenrod;
 }
 
-section {
+.flexiable {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: auto;
+    background-image: url(Photo/cov.png);
+    background-repeat: repeat;
 }
 
 .Top {
-    background-image: url(Photo/Background.png);
-    background-repeat: no-repeat;
+    background-image: url(Photo/cov.png);
+    background-repeat: repeat;
 }
 
 .half {
@@ -68,8 +70,8 @@ section {
 }
 
 .Dreams {
-    background-image: url(Photo/Background.png);
-    background-repeat: no-repeat;
+    background-image: url(Photo/cov.png);
+    background-repeat: repeat;
 }
 
 .btn {
@@ -85,17 +87,18 @@ section {
 }
 
 .road {
-    background-image: url(Photo/Background.png);
-    background-repeat: no-repeat;
+    background-image: url(Photo/cov.png);
+    background-repeat: repeat;
 }
 
 .wer {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .wer img {
-    width: 100%;
+    width: 200%;
+    padding-left: 10%;
 }
 
 .qtn {
@@ -108,4 +111,49 @@ section {
     box-shadow: 0 9px #999;
     color: aliceblue;
     font-weight: 600;
+}
+
+.eor {
+    text-align: center;
+}
+
+.roe {
+    text-align: center;
+}
+
+.woq {
+    text-align: center;
+}
+
+.qow {
+    text-align: center;
+}
+
+.uop {
+    text-align: center;
+}
+
+.eow {
+    text-align: justify;
+}
+
+.tyu {
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+#full {
+    border-left: 6px solid rgb(182, 179, 179);
+}
+
+#code {
+    border-left: 6px solid gray;
+}
+
+footer p {
+    text-align: center;
 }
